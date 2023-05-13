@@ -25,11 +25,11 @@ Scalable and straightforward template for bots written in [aiogram](https://gith
 1. Create a virtual environment: `python -m venv venv`
 2. Activate a virtual environment: `source ./venv/bin/activate` or `. ./venv/bin/activate`
 3. Install requirements: `pip install -r requirements.txt`
-4. Run your bot: `python bot.py`
+4. Run your bot: `python -O bot.py`
 
 #### Docker Deployment
 
 1. **Note:** You need to have Docker and Docker Compose installed:
     - Debian-based distro: `sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt install docker docker-compose`
-2. Run command: `docker-compose up --build`
+2. Run command: `sudo docker-compose up --build`
 
